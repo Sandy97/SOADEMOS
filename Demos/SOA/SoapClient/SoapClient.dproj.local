@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.002,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.195,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\SoapClient.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.716,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.658,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\soap.sampleauth.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.507,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit4.fmx=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\cliMain.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.290,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\Isampleauth1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.398,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.507,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit4.pas=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\cliMain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.076,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\Isampleauth1.pas=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\soap.sampleauth.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.503,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\Isampleauth1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.939,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\Isampleauth1.pas=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\soap.sampleauth.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="a"/>
+	</ActiveMobileDevice>
+</BorlandProject>

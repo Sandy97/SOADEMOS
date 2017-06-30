@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{70717C32-9553-4BF2-B39A-7FD6631CB6BF}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="soapService\SoapServerSA.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SoapClient\SoapClient.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JSONSrvApp\AuthServSA.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SoapServerSA">
+        <MSBuild Projects="soapService\SoapServerSA.dproj"/>
+    </Target>
+    <Target Name="SoapServerSA:Clean">
+        <MSBuild Projects="soapService\SoapServerSA.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SoapServerSA:Make">
+        <MSBuild Projects="soapService\SoapServerSA.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SoapClient">
+        <MSBuild Projects="SoapClient\SoapClient.dproj"/>
+    </Target>
+    <Target Name="SoapClient:Clean">
+        <MSBuild Projects="SoapClient\SoapClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SoapClient:Make">
+        <MSBuild Projects="SoapClient\SoapClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AuthServSA">
+        <MSBuild Projects="JSONSrvApp\AuthServSA.dproj"/>
+    </Target>
+    <Target Name="AuthServSA:Clean">
+        <MSBuild Projects="JSONSrvApp\AuthServSA.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AuthServSA:Make">
+        <MSBuild Projects="JSONSrvApp\AuthServSA.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SoapServerSA;SoapClient;AuthServSA"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SoapServerSA:Clean;SoapClient:Clean;AuthServSA:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SoapServerSA:Make;SoapClient:Make;AuthServSA:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

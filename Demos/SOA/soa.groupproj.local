@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.314,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\soa.groupproj=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="C:\Users\asovtsov\Documents\__Presentations\__WEBINARS\__2017\20170629_WebApps in RAD\Demos\SOA\soapService\SoapServerSA.dproj"/>
+	</Default.Personality>
+</BorlandProject>

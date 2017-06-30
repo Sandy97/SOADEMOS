@@ -1,0 +1,43 @@
+unit sampleauthImpl;
+
+interface
+
+uses Soap.InvokeRegistry, System.Types, Soap.XSBuiltIns, sampleauthIntf;
+
+type
+
+  Tsampleauth = class(TInvokableClass, Isampleauth)
+  public
+    function echoEnum(const Value: TEnumTest): TEnumTest; stdcall;
+    function echoDoubleArray(const Value: TDoubleArray): TDoubleArray; stdcall;
+    function echoMyEmployee(const Value: TMyEmployee): TMyEmployee; stdcall;
+    function echoDouble(const Value: Double): Double; stdcall;
+  end;
+
+implementation
+
+function Tsampleauth.echoEnum(const Value: TEnumTest): TEnumTest; stdcall;
+begin
+  Result := Value;
+end;
+
+function Tsampleauth.echoDoubleArray(const Value: TDoubleArray): TDoubleArray; stdcall;
+begin
+  Result := Value;
+end;
+
+function Tsampleauth.echoMyEmployee(const Value: TMyEmployee): TMyEmployee; stdcall;
+begin
+  Result := Value;
+end;
+
+function Tsampleauth.echoDouble(const Value: Double): Double; stdcall;
+begin
+  Result := Value;
+end;
+
+
+initialization
+   InvRegistry.RegisterInvokableClass(Tsampleauth);
+end.
+

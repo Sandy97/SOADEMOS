@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.002,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.716,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.322,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\JSONSrvApp\webMainMod.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.178,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\JSONSrvApp\Untitled1.htm=C:\data\testplate.htm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.572,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\JSONSrvApp\Untitled1.htm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.316,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\ServerConst1.pas=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\JSONSrvApp\ServerConst1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.796,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\ServerConst1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.198,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\JSONSrvApp\AuthServSA.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.322,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Soa\JSONSrvApp\webMainMod.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.708,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="a"/>
+	</ActiveMobileDevice>
+</BorlandProject>
